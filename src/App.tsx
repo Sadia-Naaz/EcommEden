@@ -11,28 +11,28 @@ import { getUser } from "./redux/api/userAPI";
 import { userExist, userNotExist } from "./redux/reducer/userReducer";
 import { RootState } from "./redux/store";
 
-const Home = lazy(() => import("./pages/home"));
-const Search = lazy(() => import("./pages/search"));
-const Cart = lazy(() => import("./pages/cart"));
-const Shipping = lazy(() => import("./pages/shipping"));
-const Login = lazy(() => import("./pages/login"));
-const Orders = lazy(() => import("./pages/orders"));
-const OrderDetails = lazy(() => import("./pages/order-details"));
-const NotFound = lazy(() => import("./pages/not-found"));
-const Checkout = lazy(() => import("./pages/checkout"));
+const Home = lazy(() => import("./Pages/home"));
+const Search = lazy(() => import("./Pages/search"));
+const Cart = lazy(() => import("./Pages/cart"));
+const Shipping = lazy(() => import("./Pages/shipping"));
+const Login = lazy(() => import("./Pages/login"));
+const Orders = lazy(() => import("./Pages/orders"));
+const OrderDetails = lazy(() => import("./Pages/order-details"));
+const NotFound = lazy(() => import("./Pages/not-found"));
+const Checkout = lazy(() => import("./Pages/checkout"));
 
 // Admin Routes Importing
-const Dashboard = lazy(() => import("./pages/admin/dashboard"));
-const Products = lazy(() => import("./pages/admin/products"));
-const Customers = lazy(() => import("./pages/admin/customers"));
-const Transaction = lazy(() => import("./pages/admin/transaction"));
-const Barcharts = lazy(() => import("./pages/admin/charts/barcharts"));
-const Piecharts = lazy(() => import("./pages/admin/charts/piecharts"));
-const Linecharts = lazy(() => import("./pages/admin/charts/linecharts"));
-const Coupon = lazy(() => import("./pages/admin/apps/coupon"));
-const Stopwatch = lazy(() => import("./pages/admin/apps/stopwatch"));
-const Toss = lazy(() => import("./pages/admin/apps/toss"));
-const NewProduct = lazy(() => import("./pages/admin/management/newproduct"));
+const Dashboard = lazy(() => import("./Pages/admin/dashboard"));
+const Products = lazy(() => import("./Pages/admin/products"));
+const Customers = lazy(() => import("./Pages/admin/customers"));
+const Transaction = lazy(() => import("./Pages/admin/transaction"));
+const Barcharts = lazy(() => import("./Pages/admin/charts/barcharts"));
+const Piecharts = lazy(() => import("./Pages/admin/charts/piecharts"));
+const Linecharts = lazy(() => import("./Pages/admin/charts/linecharts"));
+const Coupon = lazy(() => import("./Pages/admin/apps/coupon"));
+const Stopwatch = lazy(() => import("./Pages/admin/apps/stopwatch"));
+const Toss = lazy(() => import("./Pages/admin/apps/toss"));
+const NewProduct = lazy(() => import("./Pages/admin/management/newproduct"));
 const ProductManagement = lazy(
   () => import("./pages/admin/management/productmanagement")
 );
